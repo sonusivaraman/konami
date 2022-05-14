@@ -1,0 +1,515 @@
+*
+{
+    
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    line-height: 1;
+    font-family: "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, Futura, "Futura Std Book", arial, sans-serif;
+}
+
+.page_header
+{
+    display: table;
+    width: 100%;
+    height: 36px;
+    background: rgb(0, 0, 0);
+    position: relative;
+    display: flex;
+    align-items: center;
+    font-size: 100%;
+    line-height: 1;
+    width: 100%;
+}
+.content
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 36px;
+    margin: 0px auto;
+    font-size: 100%;
+    color: rgb(51, 51, 51);
+    width: 100%;
+}
+.logo img
+{
+width: 130px;
+height: 37px;
+}
+select
+{
+    line-height: 0;
+    position: relative;
+    margin-right: 20px;
+    overflow: hidden;
+    font-size: 100%;
+    display: block;
+    color: rgb(51, 51, 51);
+    width: 153px;
+    height: 28px;
+}
+
+.header_box 
+{
+    position: relative;
+    display: block;
+    text-align: center;
+    background-color: rgba(172, 0, 29, 0.8);
+    margin: 10px 0px;
+    font-size: 100%;
+    width: 100%;
+    height: 48px;
+    padding-top: 15px;
+    
+    
+}
+.header_box p
+{
+   
+    font-size: 16px;
+    display: inline;
+    margin: 0 auto;
+    padding: 12px 20px 12px 12px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    width: 262px;
+    height: 24px;
+    font-weight: bold;
+    
+    
+}
+.main_box span
+{
+    display: inline;
+    float: right;
+    padding-right: 5px;
+    font-size: 15px;
+    color: #ffffff;
+}
+.img1
+{
+    position: relative;
+    width: 100%;
+    height: auto;
+    max-height: 520pxpx;
+   
+
+}
+.banner
+{ 
+    margin: 10px auto;
+   
+    background: #000000;
+    text-align: center;
+   font-size: 100%;
+   color: #333333;
+   height: 137px;
+  
+}
+.banner a
+{
+    
+        font-size: 0.75rem;
+        text-align: center;
+        color: #fff;
+}
+.banner img
+{
+    width: 100%;
+    max-width: 850px;
+    color: #fff;
+    text-align: center;
+    height: 106px;
+    
+}
+.banner span {
+    display: block;
+    padding: 8px 0;
+    text-align: center;
+    height: 12px;
+}
+#four
+{
+    
+    
+    position: relative;
+    display: block;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.8);
+    margin: 10px 0px;
+    font-size: 100%;
+    color: rgb(249, 245, 245);
+    height: 48px;
+    padding-top: 15px;
+
+
+
+}
+#four span
+{
+    display: inline;
+    float: right;
+    padding-right: 5px;
+    font-size: 15px;
+    color: #ffffff;
+}
+.information
+{
+    margin: 0 auto;
+    width: 100%;
+    padding: 12px;
+    display: block;
+    width: 756px;
+    height: 1575px;
+    
+}
+.information .title
+{
+    font-size: 25px;
+    margin-bottom: 6px;
+    color: #000000;
+    padding: 6px 0;
+    width: 185px;
+    height: 26px;
+}
+.information .topics_tab .current 
+{
+    color: #ffffff;
+    border: 1px solid rgba(0, 172, 152, 0.6);
+    background: #00ac98;
+    font-size: 18px;
+    display: inline-block;
+    width: 50%;
+    max-width: 140px;
+    text-align: center;
+    cursor: pointer;
+    transition: 0.2s all;
+    height: 30px;
+    padding-top: 5px;
+
+}
+.information .topics_tab li
+{
+    font-size: 18pxem;
+    display: inline-block;
+    box-sizing: border-box;
+    width: 50%;
+    max-width: 140px;
+    padding: 6px 0;
+    cursor: pointer;
+    transition: 0.2s all;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    background: rgba(0, 0, 0, 0.2);
+}
+ul
+{
+list-style: none;
+}
+.information .topics_list 
+{
+    position: relative;
+    display: block;
+    overflow: hidden;
+    height: 1500px;
+    width: 732px;
+    padding: 12px;
+    background-color: #f4f4f4;
+    box-shadow: 0 0 2px 0 #555555;
+}
+.information .topics_area h1
+ {
+    font-size: 1.3rem;
+    font-weight: bold;
+    line-height: 1.2;
+    margin: 0 0 8px;
+    text-align: center;
+    color: #595959;
+ }
+ .information .topics_date {
+    font-size: 0.688em;
+    display: block;
+    width: 720px;
+    height: 11px;
+    color: #555555;
+ }
+ span.category-event {
+    font-size: 80%;
+    font-weight: bold;
+    line-height: 20px;
+    display: block;
+    width: 10em;
+    height: 20px;
+    margin: 9px 0;
+    text-align: center;
+    color: #ffffff;
+    border-radius: 10px;
+ 
+    background: #2aa469;
+}
+.information .topics_title
+ {
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 1.2;
+    color: #474747;
+}
+
+.information .topics_area h3
+{
+    font-weight: bold;
+    width: 720px;
+    height: 13px;
+    font-size: 13px;
+    margin-top: 10px;
+}
+.information .topics_area p
+{
+    font-size: 13px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    line-height: 15px;
+    font-weight: lighter;
+}
+.information header span.category-efootball
+{
+    background: #2aa469;
+    font-size: 80%;
+    font-weight: bold;
+    line-height: 20px;
+    display: block;
+    width: 10em;
+    height: 20px;
+    margin: 9px 0;
+    text-align: center;
+    color: #ffffff;
+    border-radius: 10px;
+   
+}
+.information .link_btn a {
+    font-size: 0.85rem;
+    padding: 8px;
+   
+    box-sizing: border-box;
+    text-decoration: none;
+    display: block;
+    width: 100%;
+    transition: 0.2s;
+    border-radius: 20px;
+    background-color: #00ac98;
+    color: #ffffff;
+    position: absolute;
+    right: 0;
+    width: 50%;
+    max-width: 140px;
+    text-align: center;
+    margin-right: 385px;
+    margin-top: 30px;
+}
+.info_link
+{
+    width: 750px;
+    height: 300px;
+    margin: 0 auto;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+
+.btn_info
+{
+    height: 60px;
+   
+    
+   width: 48%;
+   text-align: center;
+   padding-top: 15px;
+   margin-top: 10px;
+   margin-bottom: 10px;
+    background: rgba(0, 0, 0, 0.8);
+    border-radius: 20px;
+    font-size: 18px;
+}
+.btn_info a
+{
+    color: #f4f4f4;
+    align-items: stretch;
+    justify-content: center;
+    align-content: space-around;
+   
+   
+}
+.download
+{
+
+    
+   
+    min-width: 768px;
+    margin: 0 auto;
+    background-color: #dcdcdc;
+    width: 718px;
+    height: 138px;
+    
+    
+}
+.link_text
+{
+    
+    font-weight: bold;
+    
+    text-align: center;
+    color: #333333;
+    font-size: 100%;
+   margin-bottom: 5px;
+   padding-top: 35px;
+   margin-bottom: 10px;
+    
+    
+}
+
+.link_btn
+{
+
+    width: 355px;
+    height: 44px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.link_btn div a img
+{
+    display: inline-block;
+   padding: 0 5px;
+   
+    height: 50px;
+    
+
+}
+.page_link
+{
+    text-align: center;
+    margin-top: 55px;
+    
+
+}
+.btn_link
+{
+    display: inline-block;
+    width: 240px;
+    margin: 6px;
+}
+.btn_link a
+{
+    display: block;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: #00ac98;
+    max-width: 280px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: lighter;
+}
+.account
+{
+    width: 756px;
+    height: 62px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+.ft 
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+}
+.facebook img
+{
+    width: 30px;
+}
+
+.facebook .fb-img{
+    display: inline;
+    vertical-align: middle;
+}
+
+.facebook a
+{
+    display: inline-block;
+    
+   
+}
+.twitter img
+{
+    width: 30px;
+}
+.note 
+{
+    width: 756px;
+    height: 57px;
+    margin: 0 auto;
+    font-size: 9.6px;
+    line-height: 14.4px;
+    text-align: left;
+}
+.note img
+{
+    height: 10px;
+}
+.banner_area
+{
+    width: 780px;
+    height: 66px;
+    margin: 0 auto;
+display: flex;
+    
+}
+.base_image
+{
+
+    width: 230px;
+    height: 50px;
+    margin: 10px 5px ;
+
+}
+.base_note
+{
+    font-size: 10px;
+    line-height: 10px;
+    width: 780px;
+    height: 10px;
+    text-align: center;
+    color: #333333;
+    
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.policy
+{
+    width: 780px;
+    height: 44px;
+    background-color: black;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+.policy p
+{
+    text-align: center;
+    font-size: 13px;
+    padding-top: 15px;
+    
+    color: #f4f4f4;
+}
+.twitter .twitter-img{
+    display: inline;
+    vertical-align: middle;
+}
